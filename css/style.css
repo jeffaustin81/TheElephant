@@ -1,0 +1,280 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+/* Coolors Exported Palette - coolors.co/233d4d-fe7f2d-fcca46-a1c181-619b8a */
+.wrapper {
+  background-color: #fafafa;
+}
+.clearfix {
+  clear: both;
+}
+body {
+  font-size: 16px;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.95em;
+  line-height: 2.886em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #3c3c3c;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  line-height: 2.22em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #3c3c3c;
+}
+p {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1em;
+  line-height: 1.48em;
+  font-weight: normal;
+  color: #3c3c3c;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+}
+header {
+  border-bottom: solid 1px #fafafa;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 1px;
+  padding-left: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fe7f2d;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #fe7f2d), color-stop(1, #fcca46));
+  background: -ms-linear-gradient(bottom, #fe7f2d, #fcca46);
+  background: -moz-linear-gradient(center bottom, #fe7f2d 0%, #fcca46 100%);
+  background: -o-linear-gradient(#fcca46, #fe7f2d);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcca46', endColorstr='#fe7f2d', GradientType=0);
+}
+header h1 {
+  color: #fafafa;
+  flex: 1;
+}
+header svg {
+  height: 79px;
+  width: 79px;
+}
+header svg path {
+  fill: none;
+  stroke: #fafafa;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.875px;
+}
+nav {
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+nav ul li {
+  background-color: #233d4d;
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: solid 1px #fafafa;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.25em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fafafa;
+  cursor: pointer;
+}
+nav ul li a br {
+  display: none;
+}
+main {
+  width: 95%;
+  margin-left: 2.5%;
+}
+main img {
+  border: solid 2px #fcca46;
+  margin-bottom: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  height: auto;
+}
+main img.landscape {
+  display: none;
+}
+main h1 {
+  color: #3c3c3c;
+  border-bottom: solid 2px #619b8a;
+  margin-top: 10px;
+}
+main section {
+  padding: 0.45em;
+}
+main section:first-of-type {
+  display: block;
+}
+footer {
+  background: #fe7f2d;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #fcca46), color-stop(1, #fe7f2d));
+  background: -ms-linear-gradient(bottom, #fcca46, #fe7f2d);
+  background: -moz-linear-gradient(center bottom, #fcca46 0%, #fe7f2d 100%);
+  background: -o-linear-gradient(#fe7f2d, #fcca46);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe7f2d', endColorstr='#fcca46', GradientType=0);
+  color: #fafafa;
+  padding: 2em;
+}
+footer ul li {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1em;
+  line-height: 1.48em;
+  font-weight: normal;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #fafafa;
+}
+@media (min-width: 480px) {
+  main img.portrait {
+    display: none;
+    width: 100%;
+  }
+  main img.landscape {
+    display: block;
+    width: 100%;
+  }
+  main section p,
+  main section h2 {
+    width: auto;
+  }
+  main section:first-of-type h2,
+  main section:first-of-type p {
+    width: 100%;
+  }
+  main section img {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-right: 15px;
+  }
+  main section:last-of-type p,
+  main section:last-of-type h2 {
+    width: auto;
+  }
+  main section:last-of-type img {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin-left: 15px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  nav ul li {
+    font-size: .95em;
+    flex: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  nav ul li a {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  nav ul li a br {
+    display: inline;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  nav ul li a br {
+    display: none;
+  }
+  footer ul {
+    display: inline-block;
+  }
+  footer ul li {
+    font-size: .85em;
+    display: inline-block;
+    border-right: solid 1px #fafafa;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  footer ul li:last-of-type {
+    border: none;
+    padding-right: 0;
+  }
+  footer ul li:first-of-type {
+    padding-left: 0;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+  header {
+    box-shadow: none;
+    border-bottom: solid 2px #fafafa;
+  }
+  nav {
+    background-color: #233d4d;
+    margin-bottom: 15px;
+  }
+  nav ul li {
+    border: none;
+    box-shadow: none;
+  }
+  nav ul li a:hover {
+    font-size: 1.15rem;
+    transition: font-size 200ms;
+  }
+  main section p,
+  main section h2 {
+    width: auto;
+  }
+  main section:first-of-type h2,
+  main section:first-of-type p {
+    width: 100%;
+  }
+  main section img {
+    float: left;
+    width: 25%;
+    height: auto;
+    margin-right: 15px;
+  }
+  main section:last-of-type p,
+  main section:last-of-type h2 {
+    width: auto;
+  }
+  main section:last-of-type img {
+    float: right;
+    width: 25%;
+    height: auto;
+    margin-left: 15px;
+  }
+  footer ul li a:hover {
+    color: #619b8a;
+    transition: color 200ms;
+  }
+}
