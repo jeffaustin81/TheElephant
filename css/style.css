@@ -6,7 +6,7 @@
   ---------------------------------------------------*/
 /* Coolors Exported Palette - coolors.co/233d4d-fe7f2d-fcca46-a1c181-619b8a */
 .wrapper {
-  background-color: #fafafa;
+  background-color: #fff;
 }
 .clearfix {
   clear: both;
@@ -43,7 +43,7 @@ p {
   padding-right: 0.25em;
 }
 header {
-  border-bottom: solid 1px #fafafa;
+  border-bottom: solid 1px #fff;
   -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
@@ -62,7 +62,7 @@ header {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcca46', endColorstr='#fe7f2d', GradientType=0);
 }
 header h1 {
-  color: #fafafa;
+  color: #fff;
   flex: 1;
 }
 header svg {
@@ -71,7 +71,7 @@ header svg {
 }
 header svg path {
   fill: none;
-  stroke: #fafafa;
+  stroke: #fff;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 1.875px;
@@ -89,7 +89,7 @@ nav ul li {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  border: solid 1px #fafafa;
+  border: solid 1px #fff;
   text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -101,7 +101,7 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  color: #fafafa;
+  color: #fff;
   cursor: pointer;
 }
 nav ul li a br {
@@ -140,8 +140,9 @@ footer {
   background: -moz-linear-gradient(center bottom, #fcca46 0%, #fe7f2d 100%);
   background: -o-linear-gradient(#fe7f2d, #fcca46);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe7f2d', endColorstr='#fcca46', GradientType=0);
-  color: #fafafa;
+  color: #fff;
   padding: 2em;
+  margin-top: 50px;
 }
 footer ul li {
   font-family: 'Roboto Slab', serif;
@@ -151,7 +152,7 @@ footer ul li {
 }
 footer ul li a {
   text-decoration: none;
-  color: #fafafa;
+  color: #fff;
 }
 @media (min-width: 480px) {
   main img.portrait {
@@ -217,7 +218,7 @@ footer ul li a {
   footer ul li {
     font-size: .85em;
     display: inline-block;
-    border-right: solid 1px #fafafa;
+    border-right: solid 1px #fff;
     padding-right: 10px;
     padding-left: 10px;
   }
@@ -235,7 +236,7 @@ footer ul li a {
   }
   header {
     box-shadow: none;
-    border-bottom: solid 2px #fafafa;
+    border-bottom: solid 2px #fff;
   }
   nav {
     background-color: #233d4d;
